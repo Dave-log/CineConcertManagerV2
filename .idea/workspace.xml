@@ -4,26 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="044e1684-ce32-4495-9284-4fb7394333b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/davelogapps/cineconcertmanagerv2/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/davelogapps/cineconcertmanagerv2/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/davelogapps/cineconcertmanagerv2/main.fxml" afterDir="false" />
+    <list default="true" id="044e1684-ce32-4495-9284-4fb7394333b1" name="Changes" comment="Project set up">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/davelogapps/cineconcertmanagerv2/controller/CreateSequenceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/davelogapps/cineconcertmanagerv2/controller/SequenceEditorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/davelogapps/cineconcertmanagerv2/controller/VideoPlayerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/davelogapps/cineconcertmanagerv2/data/JsonIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/davelogapps/cineconcertmanagerv2/model/Sequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/davelogapps/cineconcertmanagerv2/model/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/davelogapps/cineconcertmanagerv2/createSequence.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/davelogapps/cineconcertmanagerv2/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/davelogapps/cineconcertmanagerv2/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/davelogapps/cineconcertmanagerv2/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/davelogapps/cineconcertmanagerv2/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/davelogapps/cineconcertmanagerv2/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/davelogapps/cineconcertmanagerv2/main.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,9 +42,12 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2hQeCcJGcfN2M6VSspGLUxeBJpJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -76,11 +86,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717530601450</updated>
-      <workItem from="1717530602443" duration="336000" />
+      <workItem from="1717530602443" duration="902000" />
+      <workItem from="1717531506832" duration="1170000" />
+      <workItem from="1717532680146" duration="4335000" />
     </task>
+    <task id="LOCAL-00001" summary="Project set up">
+      <option name="closed" value="true" />
+      <created>1717531153388</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717531153388</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Project set up">
+      <option name="closed" value="true" />
+      <created>1717531255657</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717531255657</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Project set up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project set up" />
   </component>
 </project>
