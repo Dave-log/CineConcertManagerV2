@@ -13,25 +13,29 @@ import java.io.IOException;
 public class MainController {
     @FXML
     private void createNewSequence() {
-        try {
-            FXMLLoader fxmlLoader = new FXMLLoader(Application.class.getResource("createSequence.fxml"));
-            Scene scene = new Scene(fxmlLoader.load(), 800, 600);
-            Stage stage = new Stage();
-            stage.setTitle("Créer une nouvelle séquence");
-            stage.setScene(scene);
-            stage.show();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+        loadScene("createSequence.fxml", "Créer une séquence");
     }
 
     @FXML
     private void editSequence() {
-        System.out.println("Éditer une séquence");
+        loadScene("editSequence.fxml", "Éditer une séquence");
     }
 
     @FXML
     private void launchSequence() {
         System.out.println("Lancer une séquence");
+    }
+
+    private void loadScene(String fxmlFile, String title) {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(Application.class.getResource(fxmlFile));
+            Scene scene = new Scene(fxmlLoader.load(), 800, 600);
+            Stage stage = new Stage();
+            stage.setTitle(title);
+            stage.setScene(scene);
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }

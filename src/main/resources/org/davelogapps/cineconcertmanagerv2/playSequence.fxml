@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.media.MediaView?>
+
+<?import javafx.scene.control.Button?>
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.davelogapps.cineconcertmanagerv2.controller.PlaySequenceController"
+      spacing="10" alignment="CENTER">
+    <MediaView fx:id="mediaView" fitWidth="600" fitHeight="400"/>
+
+    <Button text="Lire" onAction="#play"/>
+    <Button text="Pause" onAction="#pause"/>
+    <Button text="Stop" onAction="#stop"/>
+</VBox>
